@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		730AF6C51C9722240091D7F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AF6C41C9722240091D7F0 /* AppDelegate.swift */; };
+		730AF6C71C9722240091D7F0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 730AF6C61C9722240091D7F0 /* GameScene.sks */; };
+		730AF6C91C9722240091D7F0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AF6C81C9722240091D7F0 /* GameScene.swift */; };
+		730AF6CB1C9722240091D7F0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AF6CA1C9722240091D7F0 /* GameViewController.swift */; };
+		730AF6CE1C9722240091D7F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730AF6CC1C9722240091D7F0 /* Main.storyboard */; };
+		730AF6D01C9722240091D7F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 730AF6CF1C9722240091D7F0 /* Assets.xcassets */; };
+		730AF6D31C9722240091D7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730AF6D11C9722240091D7F0 /* LaunchScreen.storyboard */; };
+		730AF6DE1C9722240091D7F0 /* TrumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AF6DD1C9722240091D7F0 /* TrumpTests.swift */; };
+		730AF6E91C9722240091D7F0 /* TrumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AF6E81C9722240091D7F0 /* TrumpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		730AF6DA1C9722240091D7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730AF6B91C9722240091D7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730AF6C01C9722240091D7F0;
+			remoteInfo = Trump;
+		};
+		730AF6E51C9722240091D7F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 730AF6B91C9722240091D7F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 730AF6C01C9722240091D7F0;
+			remoteInfo = Trump;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		730AF6C11C9722240091D7F0 /* Trump.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trump.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		730AF6C41C9722240091D7F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		730AF6C61C9722240091D7F0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		730AF6C81C9722240091D7F0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		730AF6CA1C9722240091D7F0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		730AF6CD1C9722240091D7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		730AF6CF1C9722240091D7F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		730AF6D21C9722240091D7F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		730AF6D41C9722240091D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730AF6D91C9722240091D7F0 /* TrumpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		730AF6DD1C9722240091D7F0 /* TrumpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpTests.swift; sourceTree = "<group>"; };
+		730AF6DF1C9722240091D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		730AF6E41C9722240091D7F0 /* TrumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		730AF6E81C9722240091D7F0 /* TrumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpUITests.swift; sourceTree = "<group>"; };
+		730AF6EA1C9722240091D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		730AF6BE1C9722240091D7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AF6D61C9722240091D7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AF6E11C9722240091D7F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		730AF6B81C9722240091D7F0 = {
+			isa = PBXGroup;
+			children = (
+				730AF6C31C9722240091D7F0 /* Trump */,
+				730AF6DC1C9722240091D7F0 /* TrumpTests */,
+				730AF6E71C9722240091D7F0 /* TrumpUITests */,
+				730AF6C21C9722240091D7F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		730AF6C21C9722240091D7F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				730AF6C11C9722240091D7F0 /* Trump.app */,
+				730AF6D91C9722240091D7F0 /* TrumpTests.xctest */,
+				730AF6E41C9722240091D7F0 /* TrumpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		730AF6C31C9722240091D7F0 /* Trump */ = {
+			isa = PBXGroup;
+			children = (
+				730AF6C41C9722240091D7F0 /* AppDelegate.swift */,
+				730AF6C61C9722240091D7F0 /* GameScene.sks */,
+				730AF6C81C9722240091D7F0 /* GameScene.swift */,
+				730AF6CA1C9722240091D7F0 /* GameViewController.swift */,
+				730AF6CC1C9722240091D7F0 /* Main.storyboard */,
+				730AF6CF1C9722240091D7F0 /* Assets.xcassets */,
+				730AF6D11C9722240091D7F0 /* LaunchScreen.storyboard */,
+				730AF6D41C9722240091D7F0 /* Info.plist */,
+			);
+			path = Trump;
+			sourceTree = "<group>";
+		};
+		730AF6DC1C9722240091D7F0 /* TrumpTests */ = {
+			isa = PBXGroup;
+			children = (
+				730AF6DD1C9722240091D7F0 /* TrumpTests.swift */,
+				730AF6DF1C9722240091D7F0 /* Info.plist */,
+			);
+			path = TrumpTests;
+			sourceTree = "<group>";
+		};
+		730AF6E71C9722240091D7F0 /* TrumpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				730AF6E81C9722240091D7F0 /* TrumpUITests.swift */,
+				730AF6EA1C9722240091D7F0 /* Info.plist */,
+			);
+			path = TrumpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		730AF6C01C9722240091D7F0 /* Trump */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730AF6ED1C9722240091D7F0 /* Build configuration list for PBXNativeTarget "Trump" */;
+			buildPhases = (
+				730AF6BD1C9722240091D7F0 /* Sources */,
+				730AF6BE1C9722240091D7F0 /* Frameworks */,
+				730AF6BF1C9722240091D7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trump;
+			productName = Trump;
+			productReference = 730AF6C11C9722240091D7F0 /* Trump.app */;
+			productType = "com.apple.product-type.application";
+		};
+		730AF6D81C9722240091D7F0 /* TrumpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730AF6F01C9722240091D7F0 /* Build configuration list for PBXNativeTarget "TrumpTests" */;
+			buildPhases = (
+				730AF6D51C9722240091D7F0 /* Sources */,
+				730AF6D61C9722240091D7F0 /* Frameworks */,
+				730AF6D71C9722240091D7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730AF6DB1C9722240091D7F0 /* PBXTargetDependency */,
+			);
+			name = TrumpTests;
+			productName = TrumpTests;
+			productReference = 730AF6D91C9722240091D7F0 /* TrumpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		730AF6E31C9722240091D7F0 /* TrumpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 730AF6F31C9722240091D7F0 /* Build configuration list for PBXNativeTarget "TrumpUITests" */;
+			buildPhases = (
+				730AF6E01C9722240091D7F0 /* Sources */,
+				730AF6E11C9722240091D7F0 /* Frameworks */,
+				730AF6E21C9722240091D7F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				730AF6E61C9722240091D7F0 /* PBXTargetDependency */,
+			);
+			name = TrumpUITests;
+			productName = TrumpUITests;
+			productReference = 730AF6E41C9722240091D7F0 /* TrumpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		730AF6B91C9722240091D7F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hemank Narula";
+				TargetAttributes = {
+					730AF6C01C9722240091D7F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5T7Q625733;
+					};
+					730AF6D81C9722240091D7F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5T7Q625733;
+						TestTargetID = 730AF6C01C9722240091D7F0;
+					};
+					730AF6E31C9722240091D7F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5T7Q625733;
+						TestTargetID = 730AF6C01C9722240091D7F0;
+					};
+				};
+			};
+			buildConfigurationList = 730AF6BC1C9722240091D7F0 /* Build configuration list for PBXProject "Trump" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 730AF6B81C9722240091D7F0;
+			productRefGroup = 730AF6C21C9722240091D7F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				730AF6C01C9722240091D7F0 /* Trump */,
+				730AF6D81C9722240091D7F0 /* TrumpTests */,
+				730AF6E31C9722240091D7F0 /* TrumpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		730AF6BF1C9722240091D7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730AF6C71C9722240091D7F0 /* GameScene.sks in Resources */,
+				730AF6D31C9722240091D7F0 /* LaunchScreen.storyboard in Resources */,
+				730AF6D01C9722240091D7F0 /* Assets.xcassets in Resources */,
+				730AF6CE1C9722240091D7F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AF6D71C9722240091D7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AF6E21C9722240091D7F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		730AF6BD1C9722240091D7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730AF6C91C9722240091D7F0 /* GameScene.swift in Sources */,
+				730AF6CB1C9722240091D7F0 /* GameViewController.swift in Sources */,
+				730AF6C51C9722240091D7F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AF6D51C9722240091D7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730AF6DE1C9722240091D7F0 /* TrumpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		730AF6E01C9722240091D7F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				730AF6E91C9722240091D7F0 /* TrumpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		730AF6DB1C9722240091D7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730AF6C01C9722240091D7F0 /* Trump */;
+			targetProxy = 730AF6DA1C9722240091D7F0 /* PBXContainerItemProxy */;
+		};
+		730AF6E61C9722240091D7F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 730AF6C01C9722240091D7F0 /* Trump */;
+			targetProxy = 730AF6E51C9722240091D7F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		730AF6CC1C9722240091D7F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730AF6CD1C9722240091D7F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		730AF6D11C9722240091D7F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				730AF6D21C9722240091D7F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		730AF6EB1C9722240091D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		730AF6EC1C9722240091D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		730AF6EE1C9722240091D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Trump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.Trump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		730AF6EF1C9722240091D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Trump/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.Trump;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		730AF6F11C9722240091D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TrumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.TrumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trump.app/Trump";
+			};
+			name = Debug;
+		};
+		730AF6F21C9722240091D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TrumpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.TrumpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trump.app/Trump";
+			};
+			name = Release;
+		};
+		730AF6F41C9722240091D7F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = TrumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.TrumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Trump;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		730AF6F51C9722240091D7F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TrumpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.TrumpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Trump;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		730AF6BC1C9722240091D7F0 /* Build configuration list for PBXProject "Trump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730AF6EB1C9722240091D7F0 /* Debug */,
+				730AF6EC1C9722240091D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		730AF6ED1C9722240091D7F0 /* Build configuration list for PBXNativeTarget "Trump" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730AF6EE1C9722240091D7F0 /* Debug */,
+				730AF6EF1C9722240091D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		730AF6F01C9722240091D7F0 /* Build configuration list for PBXNativeTarget "TrumpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730AF6F11C9722240091D7F0 /* Debug */,
+				730AF6F21C9722240091D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		730AF6F31C9722240091D7F0 /* Build configuration list for PBXNativeTarget "TrumpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				730AF6F41C9722240091D7F0 /* Debug */,
+				730AF6F51C9722240091D7F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 730AF6B91C9722240091D7F0 /* Project object */;
+}
