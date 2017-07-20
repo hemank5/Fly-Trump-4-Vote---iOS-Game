@@ -16,6 +16,8 @@
 		730AF6D31C9722240091D7F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 730AF6D11C9722240091D7F0 /* LaunchScreen.storyboard */; };
 		730AF6DE1C9722240091D7F0 /* TrumpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AF6DD1C9722240091D7F0 /* TrumpTests.swift */; };
 		730AF6E91C9722240091D7F0 /* TrumpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730AF6E81C9722240091D7F0 /* TrumpUITests.swift */; };
+		7374A5F11C98882E004651FC /* RandomFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7374A5F01C98882E004651FC /* RandomFunction.swift */; };
+		7374A5F31C98B345004651FC /* 04B_19__.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 7374A5F21C98B345004651FC /* 04B_19__.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		730AF6E41C9722240091D7F0 /* TrumpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrumpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		730AF6E81C9722240091D7F0 /* TrumpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrumpUITests.swift; sourceTree = "<group>"; };
 		730AF6EA1C9722240091D7F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7374A5F01C98882E004651FC /* RandomFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomFunction.swift; sourceTree = "<group>"; };
+		7374A5F21C98B345004651FC /* 04B_19__.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = 04B_19__.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,8 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				730AF6C41C9722240091D7F0 /* AppDelegate.swift */,
+				7374A5F21C98B345004651FC /* 04B_19__.TTF */,
 				730AF6C61C9722240091D7F0 /* GameScene.sks */,
 				730AF6C81C9722240091D7F0 /* GameScene.swift */,
+				7374A5F01C98882E004651FC /* RandomFunction.swift */,
 				730AF6CA1C9722240091D7F0 /* GameViewController.swift */,
 				730AF6CC1C9722240091D7F0 /* Main.storyboard */,
 				730AF6CF1C9722240091D7F0 /* Assets.xcassets */,
@@ -194,21 +200,25 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Hemank Narula";
 				TargetAttributes = {
 					730AF6C01C9722240091D7F0 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 5T7Q625733;
+						DevelopmentTeam = JTGB6ZEKS7;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
 					};
 					730AF6D81C9722240091D7F0 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 5T7Q625733;
+						LastSwiftMigration = 0820;
 						TestTargetID = 730AF6C01C9722240091D7F0;
 					};
 					730AF6E31C9722240091D7F0 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 5T7Q625733;
+						LastSwiftMigration = 0820;
 						TestTargetID = 730AF6C01C9722240091D7F0;
 					};
 				};
@@ -240,6 +250,7 @@
 			files = (
 				730AF6C71C9722240091D7F0 /* GameScene.sks in Resources */,
 				730AF6D31C9722240091D7F0 /* LaunchScreen.storyboard in Resources */,
+				7374A5F31C98B345004651FC /* 04B_19__.TTF in Resources */,
 				730AF6D01C9722240091D7F0 /* Assets.xcassets in Resources */,
 				730AF6CE1C9722240091D7F0 /* Main.storyboard in Resources */,
 			);
@@ -268,6 +279,7 @@
 			files = (
 				730AF6C91C9722240091D7F0 /* GameScene.swift in Sources */,
 				730AF6CB1C9722240091D7F0 /* GameViewController.swift in Sources */,
+				7374A5F11C98882E004651FC /* RandomFunction.swift in Sources */,
 				730AF6C51C9722240091D7F0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,8 +348,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -380,8 +394,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -400,6 +416,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -408,10 +425,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JTGB6ZEKS7;
 				INFOPLIST_FILE = Trump/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.Trump;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.Trump;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -419,10 +440,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JTGB6ZEKS7;
 				INFOPLIST_FILE = Trump/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.Trump;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.Trump;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -435,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.TrumpTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trump.app/Trump";
 			};
 			name = Debug;
@@ -447,6 +473,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.TrumpTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trump.app/Trump";
 			};
 			name = Release;
@@ -459,6 +486,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.TrumpUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Trump;
 				USES_XCTRUNNER = YES;
 			};
@@ -471,6 +499,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.depaul.csc471.TrumpUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Trump;
 				USES_XCTRUNNER = YES;
 			};
@@ -495,6 +524,7 @@
 				730AF6EF1C9722240091D7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		730AF6F01C9722240091D7F0 /* Build configuration list for PBXNativeTarget "TrumpTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +533,7 @@
 				730AF6F21C9722240091D7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		730AF6F31C9722240091D7F0 /* Build configuration list for PBXNativeTarget "TrumpUITests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +542,7 @@
 				730AF6F51C9722240091D7F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
